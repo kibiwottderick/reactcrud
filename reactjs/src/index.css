@@ -1,0 +1,19 @@
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.suggest{
+    z-index: 10;
+    position: fixed;
+    width:23%;
+}
+.suggest2{
+    z-index: 10;
+    position: relative;
+    width:23%;
+}
+.suggested:hover {
+    background: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
